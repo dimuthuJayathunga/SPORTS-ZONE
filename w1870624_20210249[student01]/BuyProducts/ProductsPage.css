@@ -1,0 +1,286 @@
+
+  /* -------------------------------------- Products Page - [STUDENT 01] ------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#2e2e32;
+}
+
+.menu{
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.menu ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #58C3F2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+
+ ul{
+    background-color:rgb(255, 255, 255);
+    margin:0px;
+    padding-top: 20px;
+    border-radius:12px;
+}
+
+.menu ul {
+    height: 60px;
+}
+
+.logo{
+    margin-right: auto; 
+    margin-top: -250px;
+    padding-left: 10px;
+    display: block;
+    width: 30%;
+    opacity: 75%;
+}
+
+#site_name{
+    text-align: center;
+    font-family: Marker Felt;
+    font-size: 100px;
+    padding-top: 100px;
+}
+
+.center{
+    text-align: center;
+}
+
+  /* ------------------------------------------- Slidings --------------------------------------------------------*/
+
+
+.Slidings {
+    display: none;
+}
+
+
+* {
+    box-sizing: border-box
+}  
+
+.navbar_class {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+    border-radius:12px;
+}
+
+
+  /*---------------------------------------------- Menu buttons ---------------------------------------- */
+
+.navbar_class a {
+    float: left;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    width: 33.33%;  
+    text-align: center;
+    border-radius:12px;
+}
+
+.navbar_class a:hover {
+    background-color: #58C3F2;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar_class a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+.clickBuy{
+  background-color: #1f1e21; 
+  border: 2px solid ;
+  color: #58C3F2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 15px 1px;
+  margin-left: 1111px;
+  cursor: pointer;
+}
+
+
+
+  /* -------------------------------------------- buy products form ----------------------------------------------- */
+        
+
+.list {
+	display: none;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+	margin: 10px;
+    background-color: white;
+    padding: 40px;
+}
+		
+.LKR {
+    color: #000000;
+    font-size: 22px;
+    font-family: Arial;
+}
+        
+.itemstyle {
+    border-radius:12px;
+	color: #000000;
+    font-size: 18px;
+    font-family: Arial;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            
+}
+        
+.sum {
+    color: #58C3F2;
+    width: 60%;
+    height: 20%; font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+        
+
+   /*------------------------------------- inputs part-------------------------------------------------------*/
+        
+#formdata {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fffefe;
+    padding: 12px 20px;
+    opacity: 0.85;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+
+.inText[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+        
+.inMail[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+        
+.inDate[type=datetime],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+        
+.inSub[type=submit] {
+    width: 100%;
+    background-color: #1f1e21;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+        
+.inSub[type=submit]:hover {
+     background-color: #58C3F2;
+        
+}
+.inText[type=reset]:hover {
+     background-color: #58C3F2;
+     border-radius: 4px;
+     width: 20%;
+}
+        
+
+/*-----------------------------------------------social & footer----------------------------------------------*/
+
+.social{
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-radius:12px;
+}
+
+.social > a {
+  font-size:12px;
+  width:35px;
+  height:35px;
+  line-height:35px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:2px solid #000000;
+  color:inherit;
+  margin:9px 9px;
+  opacity:0.8;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+

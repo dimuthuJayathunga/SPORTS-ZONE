@@ -1,0 +1,61 @@
+
+body{
+    background-image:url(bg2.jpg);
+    background-color: #2e2e32;
+    animation: change 4s infinite ease-in-out; 
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+
+
+.image-rap {
+    position: relative;
+    width: 1000px;
+    height: 650px;
+    margin-right: 100px;
+    margin-left: 110px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius:12px;
+    background-color:gray;
+    opacity: 80%;
+
+}
+
+.image_title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image_description {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    text-align: center;
+    font-family: monospace;
+}
+
+.logo{
+    margin-right: auto; 
+    margin-top: -300px;
+    padding-left: 0px;
+    display: block;
+    width: 20%;
+    opacity: 90%;
+}
+
+#site_name{
+    text-align: center;
+    font-family: Marker Felt;
+    font-size: 100px;
+}
+
+@keyframes change{
+ 0%{
+    background-image: url(bg5.jpeg);
+   }
+ 100%{
+    
+     }
+}
