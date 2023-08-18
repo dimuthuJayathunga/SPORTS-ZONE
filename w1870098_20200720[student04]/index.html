@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+      <!--external style-->  
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+            function colorbg()
+            {
+                var x=document.getElementById("selectid");
+                var bgcolor=x.options[x.selectedIndex].value;
+                document.body.style.backgroundColor=bgcolor;
+            }
+        </script>
+
+
+        <title>Main page</title> 
+           
+    </head>
+
+    <body>
+        <h1>
+            Soccer
+        </h1>
+        <select id="selectid">
+           <option value=""selected disabled hidden>-- select color --</option>
+           <option class="black">black</option>
+           <option class="gray">gray</option>
+           <option class="cyan">cyan</option>
+           <option class="red">red</option>
+        </select>
+        <button onclick="colorbg()">Change the color</button>
+    
+        <div class="container">
+            <div class="col">
+                <h3>Soccer uniform</h3>
+                <div class="caption">
+                    <p>In association football, kit (also referred to as a strip or uniform) is the standard 
+                        equipment and attire worn by players. The sport's rules specify the minimum kit which 
+                        a player must use, and also prohibit the use of anything that is dangerous to either 
+                        the player or another participant</p>
+                 
+
+                </div>
+                <img src="Img/fd8e147ba2c7d1f085f7f934a6c0ffa1--football-kits-clean-design.jpg" >        
+            </div>
+
+            <div class="col">
+                <h3>Boots</h3> 
+                <div class="caption">
+                    <p>Football boots, are an item of footwear worn when playing association football. 
+                        Those designed for grass pitches have studs on the outsole to aid grip</p>
+                   
+
+                </div>
+                <img src="Img/vector-x-football-shoes-500x500.jpg" >       
+            </div>
+
+            <div class="col">
+                <h3>Shin Guards</h3>
+                <div class="caption">
+                    <p>A protective covering for the shin that is usually of stiffened canvas or leather and is used 
+                        in various sports</p>
+                    
+                   
+                </div> 
+                <img src="Img/download.jfif" >       
+            </div>
+
+            <div class="col">
+                <h3>Soccer Socks</h3>
+                <div class="caption">
+                    <p>The shin guards protect a player's shin and ankle from any contact during a soccer game. 
+                        Soccer is a contact sport. Throughout a game, players are regularly being kicked in the foot, 
+                        ankle, and shin.</p>
+                    
+
+                </div>
+                <img src="Img/TBD061285901F.jpg" >        
+            </div>
+
+            <div class="col">
+                <h3>Ball</h3>
+                <div class="caption">
+                    <p>A large ball made of leather or plastic and filled with air, used in games of soccer</p>
+                   
+
+                </div>
+                <img src="Img/istockphoto-1257575611-612x612.jpg" >        
+            </div>
+
+        </div>
+        <a href="index2.html" target="_blank">About</a>
+        
+        
+        
+
+    </body>
+</html>

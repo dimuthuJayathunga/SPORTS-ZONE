@@ -1,0 +1,101 @@
+.black{
+    background-color: black;
+}
+   
+.gray{
+    background-color: gray;
+}
+.cyan{
+    background-color: cyan;
+}
+.red{
+    background-color: red;
+}
+h1{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+    width:1000px ;
+    height: 400px;
+    margin: 120px auto;
+    display: flex;
+}
+.col{
+    height: 100%;
+    flex: 1;
+    color:azure;
+    box-sizing:border-box ;
+    padding: 25px;
+    position: relative;
+    transition:1s ;
+}
+
+.col:nth-child(1){
+    background:#444242  ;
+}
+.col:nth-child(2){
+    background:#665e59  ;
+}
+.col:nth-child(3){
+    background:rgb(160, 124, 124) ;
+}
+.col:nth-child(4){
+    background:#c59ca1  ;
+}
+.col:nth-child(5){
+    background:#d8bbc8 ;
+}
+
+h3{
+   text-align: center;
+   font-size: 22px;
+   font-weight: 500; 
+}
+
+.caption{
+    max-width: 230px;
+    font-size: 12px;
+    margin: 28px o;
+    display: none;
+}
+
+.caption button{
+    border:1px solid #fff ;
+    background: transparent;
+    outline: none;
+    padding: 8px 18px;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor:pointer;
+    font-size: 12px;
+}
+
+.col img{
+    width: 170px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.col:hover{
+    flex-grow: 2.5;
+}
+
+.col:hover .caption{
+    display: block;
+}
+
+col:hover h3{
+    text-align: left;
+}
